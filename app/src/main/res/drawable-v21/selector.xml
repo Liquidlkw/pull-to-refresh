@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--点击水波纹效果-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorgrey">
+    <item android:drawable="@color/colorwhite"/>
+</ripple>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:autoMirrored="true"-->
+    <!--android:dither="true"-->
+    <!--android:enterFadeDuration="200"-->
+    <!--android:exitFadeDuration="200"-->
+    <!--android:variablePadding="false"-->
+    <!--android:visible="true"-->
+    <!--android:constantSize="true">-->
+
+    <!--<item android:drawable="@color/colorgrey"-->
+        <!--android:state_pressed="true"-->
+       <!--/>-->
+    <!--<item android:drawable="@color/colorwhite" />-->
+
+<!--</selector>-->
+

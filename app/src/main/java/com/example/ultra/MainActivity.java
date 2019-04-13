@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -156,6 +157,9 @@ public class MainActivity extends AppCompatActivity {
                         recyclerView = findViewById(R.id.recyclerView);
                         manager = new LinearLayoutManager(MainActivity.this);
                         recyclerView.setLayoutManager(manager);
+                        //设置分割线
+                        recyclerView.addItemDecoration(new DividerItemDecoration(
+                                MainActivity.this, DividerItemDecoration.VERTICAL));
                         recyclerView.setAdapter(new Adapter(beanList));
                         Toast.makeText(MainActivity.this, "刷新成功！", Toast.LENGTH_SHORT).show();
                     }
