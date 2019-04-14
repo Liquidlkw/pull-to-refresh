@@ -1,10 +1,10 @@
-# pull-to-refresh
+# pull-to-refresh更新日志
 
 pull-to-refreshDemo
 
 recycerview 有上拉刷新
 
-recycerview item 增加了水波纹效果
+recycerview item 点击item有了水波纹效果
 （我的手机MEIZU15没有效果~？模拟器上有）
 
 recycerview  增加分割线
